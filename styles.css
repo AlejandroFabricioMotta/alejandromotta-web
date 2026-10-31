@@ -123,7 +123,7 @@ section{padding:76px 0}
 .tarjetas{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:20px;margin-top:30px}
 .tarjeta{border-radius:var(--radio);padding:32px;color:var(--color-marino)}
 .tarjeta .num{display:inline-flex;align-items:center;justify-content:center;width:50px;height:50px;border:2px solid var(--color-marino);border-radius:50%;font-family:var(--font-titulo);font-weight:700;margin-bottom:14px}
-.t1{background:var(--color-turquesa)}.t2{background:#b5d6aa}.t3{background:#b1b9ff}.t4{background:#c09ee4}.t5{background:#fdf0ab}
+.t1{background:var(--color-turquesa)}.t2{background:#b5d6aa}.t3{background:#b1b9ff}.t4{background:#c09ee4}.t5{background:#fdf0ab}.t6{background:#f6c4a6}
 .pm{margin-top:30px;background:var(--color-marino);color:#e8edf4;border-radius:var(--radio);padding:44px}
 .pm-cab{display:grid;grid-template-columns:1.3fr 1fr;gap:34px;align-items:center}
 .pm-cab img{border-radius:20px}
