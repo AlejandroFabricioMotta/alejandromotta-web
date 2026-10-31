@@ -65,9 +65,8 @@ section{padding:76px 0}
 .cifras strong{display:block;font-family:var(--font-titulo);font-size:2.2rem;color:var(--color-turquesa)}
 .cifras span{font-size:.9rem;color:#c4cad4}
 .logos{background:#fff;padding:34px 0;border-bottom:1px solid #e6eaf0}
-.logos .wrap{display:flex;flex-wrap:wrap;gap:28px 44px;align-items:center;justify-content:center}
-.logos img{height:64px;width:auto;max-width:200px;object-fit:contain;opacity:.9}
-.logos img:hover{opacity:1}
+.logos .wrap{display:flex;flex-wrap:wrap;gap:24px 40px;align-items:center;justify-content:center}
+.logos img{height:44px;width:auto;max-width:none}
 
 /* Sobre mí */
 .bloques{display:grid;grid-template-columns:repeat(12,1fr);gap:20px;margin-top:30px}
@@ -187,7 +186,7 @@ form textarea{min-height:140px;resize:vertical}
   .libro-destacado img{max-width:200px}
   .brand span{display:none}
   .cifras ul{grid-template-columns:1fr 1fr}
-  .logos img{height:48px}
+  .logos img{height:32px}
   .carrusel{--alto-car:130px}
   .carrusel__fila--b{margin-left:60px}
 }
