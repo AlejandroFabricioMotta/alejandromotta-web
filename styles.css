@@ -65,7 +65,8 @@ section{padding:76px 0}
 .cifras strong{display:block;font-family:var(--font-titulo);font-size:2.2rem;color:var(--color-turquesa)}
 .cifras span{font-size:.9rem;color:#c4cad4}
 .logos{background:#fff;padding:30px 0;border-bottom:1px solid #e6eaf0}
-.logos .wrap{display:flex;flex-direction:column;gap:18px;align-items:center}
+.logos .wrap{display:flex;flex-direction:column;gap:26px;align-items:center}
+.logos-fila{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:16px 44px}
 .logos-grupo{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px 28px}
 .logos img{height:22px;width:auto;max-width:none}
 
@@ -193,3 +194,5 @@ form textarea{min-height:140px;resize:vertical}
   .carrusel__fila--b{margin-left:60px}
 }
 .libro-n{display:block;font-family:var(--font-titulo);font-weight:700;font-size:.78rem;letter-spacing:.08em;color:var(--color-turquesa);margin-bottom:2px}
+
+@media(min-width:900px){.logos-grupo+.logos-grupo{border-left:1px solid #dfe3e8;padding-left:44px}}
